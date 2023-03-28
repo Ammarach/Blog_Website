@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Blog Project</title>
+<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"     crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- Font Awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!-- CSS file link -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Header starts here -->
+    <header id="blog-header">
+        <figure class="logo-figure">
+        <i class="fa fa-desktop logo"></i> 
+        <i class="fa fa-group logo"></i>
+        </figure>
+        <i class="fa fa-bars fa-4x" id="menu_bar"></i>
+        <nav id="nav_menu" class="nav_hidden">
+            <ul>
+                <li><a href="#blog-banner-section" class="nav_link">Home</a></li>
+                <li><a href="#blog_about_me" class="nav_link">About</a></li>
+                <li><a href="#archives" class="nav_link">Archieves</a></li>
+                <li><a href="#blog-Posts" class="nav_link">Blog Post</a></li>
+                <li><a href="#contact_section" class="nav_link">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <!-- Header Ends here -->
+    <main>
+        <!-- Blog-Banner Section starts here -->
+        <section id="blog-banner-section" class="banner">
+            <article class="banner_article" >
+                <h1 class="banner_heading">Web Development</h1>
+                <p class="banner_description text_justify">
+                    Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.
+                </p>
+            </article>
+            <aside class="banner_aside">
+                <img src="laptop2.avif" alt="cover photo" class="banner_img">
+            </aside>
+        </section>
+        <!-- Blog-Banner Section ends here -->
+
+        <!-- About me Section starts here -->
+        <section id="blog_about_me" class="section_center">
+            <h1 class="section_heading">About Me</h1>
+            <div class="cards">
+                <div class="card">
+                    <h3 class="cards_heading">Education</h3>
+                    <p class="cards_description text_justify">Education is a purposeful activity directed at achieving certain aims, such as transmitting knowledge or fostering skills and character traits. These aims may include the development of understanding, rationality, kindness, and honesty.</p>
+                    <button class="cards_button btn">Read more</button>
+                </div>
+                <div class="card">
+                    <h3 class="cards_heading">HTML</h3>
+                    <p class="cards_description text_justify">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. </p>
+                    <button class="cards_button btn">Read more</button>
+                </div>
+                <div class="card">
+                    <h3 class="cards_heading">CSS</h3>
+                    <p class="cards_description text_justify">CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics.</p>
+                    <button class="cards_button btn">Read more</button>
+                </div>
+            </div>
+        </section>
+        <!-- About me Section ends here -->
+        <!-- Archive Section start here -->
+        <section id="archives" class="section_center">
+            <h2 class="section_heading">Archieves</h2>
+            <div class="archieves_container">
+            <ul class="archieves_lists">
+                <li class="archieves_list"><img src="laptop3.jpg" alt="laptop3" class="archieves_img"></li>
+                <li class="archieves_list"><img src="laptop4.jpg" alt="laptop4" class="archieves_img"></li>
+                <li class="archieves_list"><img src="laptop5.jpg" alt="laptop5" class="archieves_img"></li>
+                <li class="archieves_list"><img src="laptop6.jpg" alt="laptop6" class="archieves_img"></li>
+            </ul>
+        </div>
+        </section>
+        <!-- Archive Section ends here -->
+
+        <!-- blog post Section starts here -->
+        <section id="blog-Posts" class="section_center">
+            <h2 class="section_heading">
+                Blog Post</h2>
+                <div class="blog_posts section_center">
+                    <div class="blog_post">
+                        <aside class="blog_post_aside">
+                            <img src="html.png" alt="blog_html">
+                        </aside>
+                        <article class="blog_post_content">
+                            <h2 class="blog_post_heading"> Blog1</h2>
+                            <h3 class="blog_post_subheading">HTML</h3>
+                            <p class="blog_post_description">HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages.</p>
+                            <button class="btn blog_post_btn">Learn More</button>
+                        </article>
+                    </div>
+
+                    <div class="blog_post">
+                        <aside class="blog_post_aside">
+                            <img src="css.png" alt="blog_css">
+                        </aside>
+                        <article class="blog_post_content">
+                            <h2 class="blog_post_heading"> Blog2</h2>
+                            <h3 class="blog_post_subheading">CSS</h3>
+                            <p class="blog_post_description">CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.</p>
+                            <button class="btn blog_post_btn">Learn More</button>
+                        </article>
+                    </div>
+
+                    <div class="blog_post">
+                        <aside class="blog_post_aside">
+                            <img src="js.png" alt="blog_css">
+                        </aside>
+                        <article class="blog_post_content">
+                            <h2 class="blog_post_heading"> Blog3</h2>
+                            <h3 class="blog_post_subheading">JavaScript</h3>
+                            <p class="blog_post_description">JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. </p>
+                            <button class="btn blog_post_btn">Learn More</button>
+                        </article>
+                    </div>
+
+                </div>
+        </section>
+
+        <!-- blog post Section ends here -->
+        <!-- Contact Section starts here -->
+        <section id="contact_section" class="section_center">
+            <h2 class="section_heading">Contact Me </h2>
+            <form>
+                <div class="form_input">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" autocomplete="name" required>
+                </div>
+
+                <div class="form_input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" autocomplete="email" required>
+                </div>
+
+                <div class="form_input">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+
+                <div class="form_input form_button_field">
+                    <button class="btn contact_button">Submit</button>
+                </div>
+            </form>
+        </section>
+        <!-- Contact Section ends here -->
+    </main>
+
+     <footer class="footer">
+        <p class="footer_text">
+            Copyright &copy; by Ammara Saifullah. All rights are reserved
+        </p>
+        <nav class="footer_nav">
+            <a href="https://www.facebook.com/ammara45" target="_blank" class="footer_link">
+                <i class="fab fa-facebook footer_icon"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" class="footer_link">
+                <i class="fab fa-youtube footer_icon"></i>
+            </a>
+            <a href="https://github.com/Ammarach" target="_blank" class="footer_link">
+                <i class="fab fa-github footer_icon"></i>
+            </a> 
+            <a href="https://www.linkedin.com/in/ammara-saif-ullah-17809157/" target="_blank" class="footer_link">
+                <i class="fab fa-linkedin footer_icon"></i>
+            </a>
+            <a href="#blog-banner-section" class="footer_link">
+                <i class="fas fa-home footer_icon"></i>
+            </a>
+        </nav>
+     </footer>
+     <script src="./index.js"></script>
+</body>
+</html>
